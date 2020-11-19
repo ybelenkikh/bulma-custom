@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="rows">
+   <p>.container //margin: 0 auto, width: auto, flex-grow: 1</p>
+    <div class="rows container">
       <button class="row button">button.button</button>
       <button class="row button is-primary is-small">button.button.is-primary.is-small</button>
       <button class="row button is-link is-medium">button.button.is-link.is-medium</button>
