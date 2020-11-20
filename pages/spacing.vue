@@ -1,6 +1,6 @@
 <template>
-  <div class="rows">
-    <div class="mr-6">
+  <div class="container">
+    <div class="mr-6 mb-6">
       <p>// class="mr-6"</p>
       <p>PADDING</p>
       <p>pt-*</p>
@@ -9,7 +9,7 @@
       <p>pl-*</p>
     </div>
 
-    <div class="mr-6">
+    <div class="mr-6 mb-6">
       <p>// class="mr-6"</p>
       <p>MARGIN</p>
       <p>mt-*</p>
@@ -18,7 +18,7 @@
       <p>ml-*</p>
     </div>
 
-    <div class="mr-6">
+    <div class="mr-6 mb-6">
       <p>SIZE</p>
       <p>*-0 0</p>
       <p>*-1 0.25rem</p>
@@ -31,10 +31,5 @@
   </div>
 </template>
 <style scoped>
-  .rows {
-    display: flex;
-  }
-
-  .rows>div {}
 
 </style>

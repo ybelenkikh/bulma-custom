@@ -1,7 +1,8 @@
 <template>
   <div>
-   <p>.container //margin: 0 auto, width: auto, flex-grow: 1</p>
-    <div class="rows container">
+   <p class="has-text-centered">.container //margin: 0 auto, width: auto, flex-grow: 1</p>
+   <p class="has-text-centered">.has-text-centered</p>
+    <div class="rows container ">
       <button class="row button">button.button</button>
       <button class="row button is-primary is-small">button.button.is-primary.is-small</button>
       <button class="row button is-link is-medium">button.button.is-link.is-medium</button>
@@ -10,7 +11,7 @@
       <button class="row button is-warning">button.button.is-warning</button>
       <button class="row button is-danger">button.button.is-danger</button>
       <button class="row button is-danger is-outlined">button.button.is-danger.is-outlined</button>
-      <p>//button.button.is-loading</p>
+      <p class="has-text-centered">button.button.is-loading</p>
       <button class="row button is-loading">button.button.is-loading</button>
       <button class="row button" disabled>button.button disabled</button>
     </div>
