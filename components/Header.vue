@@ -8,5 +8,6 @@
     <nuxt-link to="/layout"><button class="button is-large is-success">layout</button></nuxt-link>
     <nuxt-link to="/flexbox"><button class="button is-large is-success">flexbox</button></nuxt-link>
     <nuxt-link to="/tiles"><button class="button is-large is-success">tiles</button></nuxt-link>
+    <nuxt-link to="/form"><button class="button is-large is-success">form</button></nuxt-link>
   </div>
 </template>
