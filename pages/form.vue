@@ -65,6 +65,71 @@
           </p>
         </div>
       </div>
+      <div class="colimn">
+        <p>|.field</p>
+        <p class="ml-2">|.control</p>
+        <p class="ml-4">|input.input.is-small.is-success.is-rounded</p>
+        <div class="field">
+          <div class="control">
+            <input type="text" class="input is-small is-success is-rounded">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <p>textarea.textarea.is-small is-info</p>
+        <textarea name="" id="" cols="30" rows="10" class="textarea is-small is-info"></textarea>
+      </div>
+      <div class="column">
+        <p>.select.is-danger</p>
+        <p class="ml-2">select</p>
+        <p class="ml-3">option{1}</p>
+        <div class="select is-danger">
+          <select name="" id="">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+          </select>
+        </div>
+        <p>.select.is-multiple</p>
+        <p class="ml-2">select multiple</p>
+        <p class="ml-3">option{1}</p>
+        <div class="select is-multiple">
+          <select name="" id="" multiple>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+          </select>
+        </div>
+      </div>
+      <div class="column">
+        <p>label.checkbox</p>
+        <p class="ml-2">input.checkbox</p>
+        <label class="checkbox">
+          <input type="checkbox">
+          Remember me
+        </label>
+      </div>
+      <div class="column">
+       <p>.control</p>
+       <p class="ml-2">label.radio</p>
+       <p class="ml-3">input type="radio</p>
+       <p class="ml-2">label.radio</p>
+       <p class="ml-3">input type="radio</p>
+        <div class="control">
+          <label class="radio">
+            <input type="radio" name="answer">
+            Yes
+          </label>
+          <label class="radio">
+            <input type="radio" name="answer">
+            No
+          </label>
+        </div>
+      </div>
     </div>
     <div class="columns">
       <div class="column">
@@ -89,21 +154,21 @@
           <div class="field-body">
             <div class="field">
 
-                <input class="input" type="text" placeholder="Name">
-                <span class="icon is-small is-left">
-                  <i class="fas fa-user"></i>
-                </span>
+              <input class="input" type="text" placeholder="Name">
+              <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+              </span>
 
             </div>
             <div class="field">
 
-                <input class="input is-success" type="email" placeholder="Email" value="alex@smith.com">
-                <span class="icon is-small is-left">
-                  <i class="fas fa-envelope"></i>
-                </span>
-                <span class="icon is-small is-right">
-                  <i class="fas fa-check"></i>
-                </span>
+              <input class="input is-success" type="email" placeholder="Email" value="alex@smith.com">
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
 
             </div>
           </div>
