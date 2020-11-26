@@ -21,6 +21,9 @@
       <figure class="image is-128x128">
         <img src="https://bulma.io/images/placeholders/128x128.png">
       </figure>
+      <span class="icon is-left">
+        <font-awesome-icon :icon="['fas', 'envelope']"/>
+      </span>
     </div>
   </div>
 </template>
