@@ -13,6 +13,7 @@
       <nuxt-link to="/tiles"><button class="button is-large is-success">tiles</button></nuxt-link>
       <nuxt-link to="/form"><button class="button is-large is-success">form</button></nuxt-link>
       <nuxt-link to="/Responsiveness"><button class="button is-large is-success">Responsiveness</button></nuxt-link>
+      <nuxt-link to="/components"><button class="button is-large is-success">components</button></nuxt-link>
     </div>
   </header>
 </template>

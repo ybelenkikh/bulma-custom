@@ -2,7 +2,7 @@
   <div>
     <p class="has-text-centered">.container //margin: 0 auto, width: auto, flex-grow: 1</p>
     <p class="has-text-centered">.has-text-centered</p>
-    <div class="rows container ">
+    <div class="container ">
       <button class="row button block">button.button.block</button>
       <button class="row button is-primary is-small block">button.button.is-primary.is-small.block</button>
       <button class="row button is-link is-medium box">button.button.is-link.is-medium.box</button>
@@ -21,16 +21,19 @@
       <figure class="image is-128x128">
         <img src="https://bulma.io/images/placeholders/128x128.png">
       </figure>
+      <p>span.icon</p>
       <span class="icon is-left">
         <font-awesome-icon :icon="['fas', 'envelope']"/>
       </span>
+       <p>span.tag.is-small.is-success</p>
+      <span class="tag is-small is-success">
+  Tag label
+</span>
     </div>
+
   </div>
 </template>
 <style scoped>
-  .rows {
-    display: flex;
-    flex-direction: column;
-  }
+
 
 </style>
